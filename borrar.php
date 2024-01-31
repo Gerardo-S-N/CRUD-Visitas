@@ -3,6 +3,6 @@ include("conexion.php");
 
 $id = $_GET["id"];
 
-$base->query("DELETE FROM DATOS_USUARIOS WHERE ID ='$id'");
+$base->query("DELETE FROM Visitas_2023 WHERE ID ='$id'");
 header("Location:index.php");
 ?>

@@ -1,0 +1,77 @@
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Trajan Pro';
+    border-bottom: dashed white 3px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-family: 'Century Gothic';
+}
+
+#container {
+    width: 70%;
+    margin: auto;
+    border: 2px solid lightblue;
+}
+
+.encabezados {
+    font-family: "Trajan pro";
+    font-size: medium;
+    background-color: orange;
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+}
+
+table {
+    margin: auto;
+    text-align: center;
+}
+
+.celda {
+    font-family: "Century Gothic";
+    border: dashed 1px white;
+    text-align: center;
+    color: #becefa;
+    font-size: 20px;
+
+}
+
+input[type="text"] {
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+input[type="button"],
+input[type="submit"] {
+    border-radius: 5px;
+    font-family: "Century Gothic";
+}
+
+
+input[type="button"]:hover,
+input[type="submit"]:hover {
+    border-radius: 0px;
+    font-family: "Century Gothic";
+    background-color: rgb(150, 178, 255);
+}
+
+body {
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.pActual{
+    color: #becefa;
+    text-decoration: underline;
+    border: 1px solid #becefa;
+}

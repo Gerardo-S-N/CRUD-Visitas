@@ -5,6 +5,24 @@ h1 {
     border-bottom: dashed white 3px;
 }
 
+.fuenteR{
+    font-family: 'Century Gothic';
+}
+
+.img_principal{
+    height: 35%;
+}
+
+.fondo {
+    background-image: url("./img/basilica_zapopan.jpg");
+    background-position: top center;
+}
+
+.reloj{
+    font-family: "Century Gothic";
+    font-size: larger;
+}
+
 p {
     color: white;
     text-align: center;
@@ -60,18 +78,18 @@ input[type="submit"]:hover {
     background-color: rgb(150, 178, 255);
 }
 
-body {
-    background-color: rgb(41, 41, 41);
-    color: white;
-}
-
-a{
+a {
     text-decoration: none;
     color: white;
 }
 
-.pActual{
+.pActual {
     color: #becefa;
     text-decoration: underline;
     border: 1px solid #becefa;
+}
+
+#reloj {
+    position: relative;
+    margin-top: -600px;
 }
